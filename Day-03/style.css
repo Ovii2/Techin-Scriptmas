@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+  color: #fff;
+  font-family: 'Noto Sans Mono', cursive;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  text-shadow: 5px 2px 8px #ffd700;
+}
+
+body {
+  background-color: #00090b;
+  text-align: center;
+}
+
+main > p {
+  margin-bottom: 3rem;
+}
+
+main {
+  margin-bottom: 5rem;
+}
+
+.christmas-tree {
+  width: 20rem;
+}
+
+.gift-link {
+  background: #d71400;
+  background: linear-gradient(90deg, #d71400 20%, #0f7800 65%);
+  padding: 1rem 1.2rem;
+  border-radius: 0.4rem;
+  font-family: serif;
+}
+
+.gift-link:hover {
+  box-shadow: 2px 5px 5px #0f7800;
+  font-size: 1.1rem;
+}

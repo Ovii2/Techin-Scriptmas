@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  color: #fff;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #00090b;
+  text-align: center;
+}
+
+.gift-link {
+  background: #d71400;
+  background: linear-gradient(90deg, #d71400 20%, #0f7800 65%);
+  padding: 1rem 1.2rem;
+  border-radius: 0.4rem;
+  margin-top: 5rem;
+  font-family: serif;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5rem auto;
+}
+
+section > img {
+  width: 30rem;
+}
+
+.gift-link:hover {
+  box-shadow: 2px 5px 5px #0f7800;
+  font-size: 1.1rem;
+}
