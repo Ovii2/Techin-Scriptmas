@@ -1,0 +1,34 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #c0809e;
+  font-family: Arial, sans-serif;
+}
+
+.ornament {
+  display: grid;
+  grid-template-columns: repeat(10, 3.125rem);
+  grid-template-rows: repeat(10, 3.125rem);
+  gap: 2px;
+  background-color: transparent;
+  transition: transform 0.3s ease;
+}
+
+.grid-cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  transition: background-color 0.3s ease;
+  background-color: #c41e3a;
+}
+
+.grid-cell:hover {
+  opacity: 0.8;
+}
+
+.grid-cell-empty {
+  background-color: transparent;
+}
