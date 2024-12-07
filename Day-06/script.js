@@ -9,3 +9,4 @@ document.querySelector('.month').textContent = `${month}`;
 document.querySelector('.weekday').textContent = `${weekday}`;
 document.querySelector('.day').textContent = `${day}`;
 document.querySelector('.year').textContent = `${year}`;
+
