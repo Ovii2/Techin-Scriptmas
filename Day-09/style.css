@@ -1,0 +1,6 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  background: url('./assets/background/moon.png') no-repeat center top;
+  object-fit: contain;
+}
