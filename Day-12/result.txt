@@ -1,0 +1,5 @@
+SELECT cgp.customer_id, SUM(cgp.retail_price) AS total_spent
+FROM customer_gift_purchases cgp
+INNER JOIN gifts g ON cgp.gift_id = g.gift_id
+INNER JOIN gift_categories gc ON g.gift_category_id = gc.gift_category_id
+WHERE gc.name = 'read' AND cgp.customer_id = 8;
