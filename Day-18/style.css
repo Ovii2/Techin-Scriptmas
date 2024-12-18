@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  color: #fff;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background-image: url('/assets/christmas.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.container {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  margin: 0 auto;
+}
+
+table > thead {
+  text-align: left;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.text-center {
+  text-align: center;
+}
